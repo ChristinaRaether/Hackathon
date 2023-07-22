@@ -74,7 +74,7 @@ if (navigator.geolocation) {
                 console.log(timeAndTemp);
 
                 const temperatureContent = document.querySelector('h2');
-                temperatureContent.textContent = `Outside temperature is
+                temperatureContent.textContent = `Current temperature is
         ${timeAndTemp[currentTime]} °F`;
                 // temperatureContent.innerHTML = `Today's Temperature
                 // ${timeAndTemp[currentTime]} °F`;
@@ -93,6 +93,12 @@ if (navigator.geolocation) {
                     51: "images/drizzle.jpeg",
                     53: "images/drizzle.jpeg",
                     55: "images/drizzle.jpeg",   
+                    71: "images/snow.jpeg",
+                    73: "images/snow.jpeg",
+                    74: "images/snow.jpeg",
+                    77: "images/snow.jpeg",
+                    85: "images/snow.jpeg",
+                    86: "images/snow.jpeg",
                 }
 
                 const image = document.createElement('img');
